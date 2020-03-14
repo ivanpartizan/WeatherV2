@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background: linear-gradient(to left, #45a29e, #66fcf1);
+}
+
+.page {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-rows: 1fr 1fr 5fr;
+  width: 60%;
+  height: 100vh;
+  background-color: #1f2833;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+input[type="text"] {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid #66fcf1;
+  color: #66fcf1;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.page h1 {
+  text-align: center;
+  margin: 2vh;
+  color: #66fcf1;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.title:hover {
+  cursor: pointer;
+}
+
+#output {
+  background: #66fcf1;
+  color: #1f2833;
+  text-align: center;
+  width: 50%;
+}
+
+#output:hover {
+  opacity: 0.8;
+}
+
+#output h1 {
+  color: #1f2833;
+}
+
+.name {
+  font-size: 2em;
+}
