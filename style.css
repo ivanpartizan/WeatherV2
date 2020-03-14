@@ -70,3 +70,25 @@ input[type="text"] {
 .name {
   font-size: 2em;
 }
+
+@media (max-width: 680px) {
+  .page,
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  input[type="text"],
+  button,
+  #output {
+    margin-top: 25px;
+  }
+
+  #output {
+    width: 80%;
+  }
+}
